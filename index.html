@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coco</title>
+    <link rel="shortcut icon" href="./assets/Logo_fav.png" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    screens: {
+                        'sm': '320px',
+                        'xs': '370px',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="sticky z-50 top-0 bg-white">
+        <div class="flex w-[80%] py-6 justify-between items-center mx-auto  max-xs:w-[95%]">
+            <img src="./assets/Logo.png" alt="logo" class="w-36 max-xs:w-28">
+            <div class="flex gap-16 max-xs:hidden">
+                <ul class="flex items-center justify-between gap-8">
+                    <li class="font-medium text-base text-[#1D1E25]">Home</li>
+                    <li class="font-medium text-base text-[#1D1E25]">About</li>
+                    <li class="font-medium text-base text-[#1D1E25]">Blog</li>
+                    <li class="font-medium text-base text-[#1D1E25]">Pricing</li>
+                </ul>
+                <div class="flex flex-col">
+                    <div class="flex items-center gap-2 font-semibold text-base text-black">
+                        <button>Contact Us</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                    <div class="w-[95%] mt-2 mx-auto h-[1px] bg-black "></div>
+                </div>
+            </div>
+            <div class="hidden max-xs:block">
+                <div class="w-6 h-6 p-1 flex justify-between items-end flex-col">
+                    <div class="bg-black w-[100%] h-[2px] rounded-full"></div>
+                    <div class="bg-black w-[100%] h-[2px] rounded-full"></div>
+                    <div class="bg-black w-[60%] h-[3px] rounded-full"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <header class="w-[80%] mx-auto py-24 max-xs:w-[95%] max-xs:py-6">
+        <div class="">
+            <h1 class="text-7xl text-[#1D1E25] font-bold w-[960px] max-xs:w-full max-xs:text-3xl">
+                Everything you need to get the attention of your audience
+            </h1>
+            <div class="flex items-center justify-between mt-28 max-xs:mt-12 max-xs:flex-col max-xs:items-end">
+                <div class="w-[65%] flex gap-6 max-xs:w-[100%] max-xs:gap-2">
+                    <div class="w-[40%] h-[1px] bg-black mt-2"></div>
+                    <h1 class="font-semibold text-3xl text-[#1D1E25] max-xs:text-base ">Our digital agency helps clients
+                        develop, implement and maintain successful digital marketing strategies across all channels.
+                        Also work with you to build your website and create online businesses that grow.</h1>
+                </div>
+                <img src="./assets/Linked Path.png" alt="" class="w-40 max-xs:w-20 max-xs:mt-[-20px]">
+            </div>
+        </div>
+    </header>
+    <section class="w-[80%] mx-auto py-24 max-xs:w-[95%] max-xs:py-4">
+        <div class="flex gap-8 max-xs:flex-col">
+            <img src="./assets/img_one.png" alt="" class="w-[502px] h-[629px] max-xs:hidden">
+            <div class="w-[502px] h-[629px] flex flex-col justify-between items-start max-xs:w-[100%] max-xs:h-[428px]">
+                <img src="./assets/img_two.png" alt="" class="w-[100%]">
+                <h1 class="text-3xl text-[#1D1E25] font-semibold max-xs:text-base">What we believe in</h1>
+                <p class="text-[#7E8492] font-medium text-lg w-[90%] max-xs:text-sm max-xs:w-[100%]">Over the years at
+                    Sans, we’ve put a lot of thought into what it is that makes us who we are. The qualities that unite
+                    us, that make us such an effective team, and...</p>
+                <div class=" bg-black py-4 px-8 rounded-full max-xs:py-2 max-xs:px-6">
+                    <button class="text-white text-base max-xs:text-sm">See Details</button>
+                    <i class="fa-solid fa-arrow-right text-white text-base max-xs:text-sm"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="w-[80%] mx-auto  max-xs:w-[95%]">
+        <div class="flex justify-between border-y-2 border-[#EDEDED] py-24 max-xs:flex-col max-xs:py-6 max-xs:gap-4">
+            <h1 class="text-6xl font-semibold text-[#1D1E25] w-[40%] max-xs:w-[100%] max-xs:text-2xl">
+                Powerful ideas & sales acceleration
+            </h1>
+            <p class="w-[40%] text-2xl font-semibold text-[#1D1E25] max-xs:w-[100%] max-xs:text-sm">
+                We are a software development firm specializing in digital products. We build beautiful, functional and
+                cross-platform solutions that are accessible to all.
+            </p>
+        </div>
+    </section>
+    <section>
+        <div class="w-[80%] py-32 max-xs:w-[95%] mx-auto max-xs:py-14">
+            <div class="">
+                <h1
+                    class="font-semibold text-[56px] leading-[67px] text-[#1D1E25] w-[890px] max-xs:w-[100%] max-xs:text-2xl">
+                    Meet our team
+                    of creators, designers, and world-class problem solvers</h1>
+                <p class="text-[#7E8492] font-medium mt-5 text-lg w-[533px] max-xs:text-sm max-xs:w-[100%]">To become
+                    the
+                    company that customers want, it takes a group of passionate people. Get to know the people who lead
+                </p>
+            </div>
+            <div class="flex gap-[32px] mt-[80px] flex-row max-xs:flex-col max-xs:mt-8">
+                <div class="w-[31.57%] max-xs:w-[100%]">
+                    <img src="./assets/Rectangle 4.png" alt="boy" class="w-[100%] h-auto max-xs:h-[245px]">
+                    <div class="flex justify-between items-center mt-4">
+                        <h1 class="font-semibold text-2xl text-[#1D1E25] max-xs:text-base">Arlyne Stefano</h1>
+                        <div class="flex justify-between items-center gap-3">
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-twitter max-xs:text-sm"></i>
+                            </div>
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-linkedin-in max-xs:text-sm"></i>
+                            </div>
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-instagram max-xs:text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-medium text-lg max-xs:text-sm text-[#7E8492] xs:text-sm">Founder & CEO</p>
+                </div>
+                <div class="w-[31.57%]  max-xs:w-[100%]">
+                    <img src="./assets/Rectangle 5.png" alt="boy" class="w-[100%] h-auto max-xs:h-[245px]">
+                    <div class="flex justify-between items-center mt-4">
+                        <h1 class="font-semibold text-2xl text-[#1D1E25] max-xs:text-base">Katy Cristy</h1>
+                        <div class="flex justify-between items-center gap-3">
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-twitter max-xs:text-sm"></i>
+                            </div>
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-linkedin-in max-xs:text-sm"></i>
+                            </div>
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-instagram max-xs:text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-medium text-lg max-xs:text-sm text-[#7E8492] xs:text-sm">Chief Technology Officer</p>
+                </div>
+                <div class="w-[31.57%]  max-xs:w-[100%]">
+                    <img src="./assets/Rectangle 6.png" alt="boy" class="w-[100%] h-auto max-xs:h-[245px]">
+                    <div class="flex justify-between items-center mt-4">
+                        <h1 class="font-semibold text-2xl text-[#1D1E25] max-xs:text-base">Roger Dzawin</h1>
+                        <div class="flex justify-between items-center gap-3">
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-twitter max-xs:text-sm"></i>
+                            </div>
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-linkedin-in max-xs:text-sm"></i>
+                            </div>
+                            <div
+                                class="bg-[#E8E9EB] rounded-full text-[#161A34] w-[42px] h-[42px] max-xs:w-[20px] max-xs:h-[20px]  flex justify-center items-center">
+                                <i class="fa-brands text-lg fa-instagram max-xs:text-sm"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="font-medium text-lg max-xs:text-sm text-[#7E8492] xs:text-sm">Chief Technology Officer</p>
+                </div>
+            </div>
+            <div class="flex justify-between items-center mt-[100px] max-xs:flex-col max-xs:mt-14">
+                <div class="w-[48%] max-xs:w-[100%]">
+                    <h1 class="font-semibold text-[56px] leading-[67px] text-[#1D1E25] max-xs:hidden">Join our team, The
+                        one with the master touch</h1>
+                    <h1 class="font-semibold text-2xl text-[#1D1E25] hidden max-xs:block">Join our team</h1>
+                </div>
+                <div class=" w-[40%] max-xs:w-[100%] max-xs:mt-4">
+                    <p class="text-[#7E8492] font-medium text-lg max-xs:text-sm">We believe it takes great people to
+                        make a great product. That’s why we hire not only the perfect
+                        professional fits, but people who embody our company values.</p>
+                    <div class="flex items-center mt-6 max-xs:mt-4">
+                        <button class="text-base text-[#1D1E25] font-semibold">See Open Position</button>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer class="bg-[#1D1E25]">
+        <div class="w-[80%] mx-auto  max-xs:w-[95%]">
+            <div
+                class="flex justify-between items-center pt-28 max-xs:flex-col max-xs:gap-6 max-xs:pt-14 max-xs:items-start">
+                <div class="w-[60%] max-xs:w-[100%]">
+                    <h1 class="text-6xl text-white font-semibold max-xs:text-2xl">
+                        Think beyond the wave
+                    </h1>
+                    <p
+                        class="w-[65%] max-xs:[100%]  text-base text-[#AFB3BB] mt-6 font-medium max-xs:text-sm max-xs:text-white max-xs:ml-6">
+                        Ask about Sans products, pricing, implementation, or anything else. Our highly trained reps are
+                        standing by, ready to help
+                    </p>
+                </div>
+                <button
+                    class="bg-white py-4 px-8 rounded-full text-base text-[#1D1E25] font-bold max-xs:text-sm max-xs:py-3 max-xs:px-6 ">Try
+                    for free</button>
+            </div>
+            <div class="flex justify-between mt-28 max-xs:mt-14">
+                <div class="">
+                    <img src="./assets/white_Logo.png" alt="" class="w-[140px] max-xs:w-[95px]">
+                    <p class="w-[292px] text-[#7E8492] font-normal text-base mt-1">We built an elegant solution. Our
+                        team created a fully integrated sales and marketing solution
+                        for SMBs</p>
+                </div>
+                <div class="flex justify-between max-xs:hidden">
+                    <div class="">
+                        <ul class="">
+                            <li class="text-base font-bold text-white">Company</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">About</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Pricing</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Jobs</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Blog</li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class="">
+                            <li class="text-base font-bold text-white">Product</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Sales Software</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Marketplace</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Terms & Conditions</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Privacy Policy</li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class="">
+                            <li class="text-base font-bold text-white">Discover</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">CRM Comparision</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Partner Program</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">What is CRM</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Resource</li>
+                        </ul>
+                    </div>
+                    <div class="">
+                        <ul class="">
+                            <li class="text-base font-bold text-white">Help Center</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Community</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Knowledge Base</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Academy</li>
+                            <li class="text-[#7E8492] font-normal text-base mt-4">Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-[#606060] w-[100%] h-[2px] mt-14"></div>
+            <div class="flex items-center justify-between py-10 max-xs:flex-col">
+                <div class="flex items-center gap-16 max-xs:flex-col max-xs:gap-6">
+                    <div class="flex gap-6 max-xs:flex-wrap">
+                        <i class="text-white text-2xl fa-brands fa-linkedin soc_icon_foot"></i>
+                        <i class="text-white text-2xl fa-brands fa-twitter soc_icon_foot"></i>
+                        <i class="text-white text-2xl fa-brands fa-facebook soc_icon_foot"></i>
+                        <i class="text-white text-2xl fa-brands fa-instagram soc_icon_foot"></i>
+                    </div>
+                    <div class="flex items-center gap-10 max-xs:gap-2">
+                        <p class="text-white text-sm font-medium max-xs:text-[#7E8492] mb-1">Privacy Policy</p>
+                        <p class="text-white text-sm font-medium max-xs:text-[#7E8492] mb-1">Terms & Conditions</p>
+                        <p class="text-white text-sm font-medium max-xs:text-[#7E8492] mb-1">Support</p>
+                    </div>
+                </div>
+                <p class="text-white text-sm font-medium max-xs:text-[#7E8492]">© Copyright 2023,t All Rights Reserved
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
